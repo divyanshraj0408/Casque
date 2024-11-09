@@ -3,8 +3,8 @@ import serial
 from twilio.rest import Client
 
 # Twilio setup
-account_sid = os.getenv('TWILIO_ACCOUNT_SID')
-auth_token = os.getenv('TWILIO_AUTH_TOKEN')
+account_sid = 'ACff4989746b1dd4af0ae82e385d9d80f8'
+auth_token = '901dd43f79cb6312dcfabceca2e61b0c'
 client = Client(account_sid, auth_token)
 whatsapp_from = 'whatsapp:+14155238886'  # Twilio Sandbox number
 whatsapp_to = 'whatsapp:+919310478147'
